@@ -1,0 +1,35 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "what's up?",
+                "hey how are you doing?"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?",
+                "what do you call yourself?"
+            ],
+            "responses": [
+                "My name is Phillip"
+            ]
+        },
+        {
+            "tag": "file",
+            "patterns": [
+                "create a file",
+                "create new file",
+                "create file",
+                "create a new file"
+            ],
+            "responses": []
+        }
+    ]
+}
