@@ -30,6 +30,48 @@
                 "create a new file"
             ],
             "responses": []
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "create note",
+                "create a note",
+                "create new note"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [
+                "add to do",
+                "add todo",
+                "add a to do",
+                "add a todo"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "show_todo",
+            "patterns": [
+                "show to dos",
+                "show todos",
+                "show to do",
+                "show todo"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "quit",
+            "patterns": [
+                "exit",
+                "stop",
+                "quit",
+                "abort",
+                "pause",
+                "finish",
+                "end"
+            ],
+            "responses": []
         }
     ]
 }
